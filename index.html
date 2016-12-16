@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+
+<!--Meta-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--Title-->
+  <title> Gallery of Seals </title>
+
+  <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<header>
+  <h1> Gallery of Seals </h1>
+</header>
+
+<main>
+   <div class="lightbox">
+     <a href="img/floof-thumb.jpg" data-lightbox="Seals">
+       <img src="img/floof.jpg" alt="Fluffy Seal">
+     </a>
+
+     <a href="img/grey-seal-thumb.jpg" data-lightbox="Seals">
+       <img src="img/grey-seal.jpg" alt="Grey Seal">
+     </a>
+
+     <a href="img/harpseal_inwater.jpg" data-lightbox="Seals">
+       <img src="img/harpseal_inwater-thumb.jpg" alt="Harp Seal Swimming in Water">
+     </a>
+     <a href="img/harpseal2.jpg" data-lightbox="Seals">
+       <img src="img/harpseal2.jpg" alt="Harp Seal2">
+     </a>
+   </main>
+   <footer>
+     <p> By: Cheyenne </p>
+   </footer>
+ </body>
+ </html> 
+
+<!--Javascript-->
+<script src="js/lightbox-plus-jquery.min.js"> </script>
+<script>
+  lightbox.option ({
+    'alwaysShowNavOnTouchDevices': true,
+  })
